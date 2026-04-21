@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Website</title>
+</head>
+
+<body style="background:lightblue; text-align:center; font-family:Arial; margin:0;">
+
+  <!-- Title -->
+  <h1 style="margin-top:40px;">My Interactive Website</h1>
+
+  <p>Click the button below 👇</p>
+
+  <!-- Button -->
+  <button onclick="changeText()" style="padding:10px 20px; font-size:16px;">
+    Click Me
+  </button>
+
+  <!-- Message -->
+  <p id="message" style="margin-top:20px;"></p>
+
+  <!-- JavaScript -->
+  <script>
+    function changeText() {
+      document.getElementById("message").innerHTML =
+        "Hello! You just used JavaScript 🎉";
+    }
+  </script>
+
+</body>
+</html>
